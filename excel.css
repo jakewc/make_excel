@@ -1,0 +1,22 @@
+/* https://jsfiddle.net/6qkdP/2/ */
+.grid {
+    margin:1em auto;
+    border-collapse:collapse;
+    width: 100%;
+}
+.grid td, .formatting {
+    cursor:pointer;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:13px;
+}
+.grid td {
+    width: 1%;
+}
+.formatting {
+    width: 10%;
+}
+.grid td.clicked {
+    background-color: grey;
+}
